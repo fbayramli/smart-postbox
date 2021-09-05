@@ -66,7 +66,7 @@ $ flask run
 </pre>
 
 
-[pir.py](pir.py) runs on the Raspberry Pi inside postbox, detects new post insertion <br />
-[camera_2.py](camera_2.py) runs on the Raspberry Pi inside postbox, takes a picture of the post and sends it to the 2nd Raspberry Pi <br />
-[ocr.py](ocr.py) run on the 2nd Raspberry Pi, detects text on the post, applies filters and sends email<br /><br />
+[pir.py](pir.py) runs on the 1st Raspberry Pi, detects new post insertion <br />
+[camera_2.py](camera_2.py) runs on the 1st Raspberry Pi, takes a picture of the post and sends it to the 2nd Raspberry Pi <br />
+[ocr.py](ocr.py) runs on the 2nd Raspberry Pi, detects text on the post, applies filters and sends email<br /><br />
 
