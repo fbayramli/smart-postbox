@@ -41,7 +41,8 @@ Resistor(s) for LED
 
 
 # Configure
-1. first configure Google Vision API and get your key
+1. first set up your Google Cloud Vision API and get your key. You can use this tutorial: <br />
+https://www.dexterindustries.com/howto/use-google-cloud-vision-on-the-raspberry-pi/ <br />
 2. then create a file named "credentials" containing sender_email, sender_password, receiver_email like below:
 <pre>
 sender@example.com
@@ -57,7 +58,7 @@ receiver@example.com
 $ export FLASK_APP = camera_2.py
 $ pyhton3 camera2.py
 </pre>
-3. Start Google Vision by exporting your key on the 2nd Raspberry Pi
+3. Start Google Cloud Vision by exporting your key on the 2nd Raspberry Pi
 <pre>$ export GOOGLE_APPLICATION_CREDENTIALS=your_google_vision_key.json</pre>
 4. run [ocr.py](ocr.py) using Flask on the 2nd Raspberry Pi 
 <pre>
