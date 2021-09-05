@@ -12,10 +12,10 @@
 # smart-postbox
 
 ## Main idea:
-<img src="main_idea.png" width="50%" height="50%">
+<img src="images/main_idea.png" width="50%" height="50%">
 
 ## Prototype
-<img src="prototype.png" width="50%" height="50%">
+<img src="images/prototype.png" width="50%" height="50%">
 
 ## Used components:
 <pre>
@@ -32,12 +32,12 @@ Resistor(s) for LED
 </pre>
 
 ## Setup on 1st Raspberry Pi
-<img src="postbox_setup_circual_diagram.png" width="30%" height="30%">
-<img src="setup.png" width="30%" height="30%">
-<img src="setup_upside_down.png" width="30%" height="30%">
+<img src="images/postbox_setup_circual_diagram.png" width="30%" height="30%">
+<img src="images/setup.png" width="30%" height="30%">
+<img src="images/setup_upside_down.png" width="30%" height="30%">
 
 # Data Flow
-<img src="data_flow.jpg" width="30%" height="30%">
+<img src="images/data_flow.jpg" width="30%" height="30%">
 
 
 # Configure
